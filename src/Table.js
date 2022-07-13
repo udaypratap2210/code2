@@ -28,8 +28,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 function CustomizedTables(props) {
-  console.log(styled);
-
   return (
     <TableContainer>
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
